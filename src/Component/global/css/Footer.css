@@ -1,0 +1,34 @@
+.Footer {
+     position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+@media (max-width: 320px){
+
+}/*Fin 320*/
+
+/* especial */ 
+@media (min-width: 560px) {
+
+}/*Fin 560*/
+
+/* General */
+@media (min-width: 768px) {
+
+}/*Fin 768*/
+
+@media (min-width: 992px) {
+ .Footer {
+     position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+} 
+}/*Fin 992*/
+
+@media (min-width: 1200px) {
+  
+}/*Fin 1200*/

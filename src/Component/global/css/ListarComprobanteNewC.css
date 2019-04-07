@@ -1,0 +1,12 @@
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+.table-scroll{
+    background: rgba(251,251,251,0.7);
+    padding: 10px;
+    width: 100%;
+}

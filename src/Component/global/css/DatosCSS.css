@@ -1,0 +1,80 @@
+.the-icons {
+  font-size: 25px;
+}
+
+.DatosCSS-input-checkbox {
+  width:20px;
+  height:17px;
+}
+td{
+  height: auto;
+}
+.tabla{
+  width: 95%;
+  height:auto;
+  overflow:auto;
+  margin: auto;
+}
+
+.tabla-cabecera{
+  color: white;
+  background-color: rgb(16, 81, 158);
+}
+
+.table-scroll{
+  width: 100%;
+  margin-top:1.5%;
+  margin-bottom: 1.5%;
+}
+.btn btn-danger{
+  text-align: center;
+}
+.detalles:hover{
+   background-color: #bee5eb;
+  cursor: pointer;
+}
+
+.center-block{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-enviar{
+  background-color:red;
+  color:white;
+  border:none;
+  border-radius: 8px;
+  padding: 4px 10px;
+  text-align: center;
+}
+
+.two-fields {
+  width:10%;
+}
+
+.two-fields button {
+  width:50% !important;
+}
+.mybtn-red{
+  color: red;
+}
+.mybtn-blue{
+  color: blue;
+}
+/*
+.two-fields {
+  width:8%;
+}
+.two-fields .input-group {
+  width:100%;
+}
+.two-fields input {
+  width:50% !important;
+}
+.botonimagen{
+  background-image:url(../image/observacion.png);
+  background-repeat:no-repeat;
+  height:10px;
+  width:10px;
+  background-position:center;
+}*/

@@ -1,0 +1,135 @@
+.content{
+    padding: 30px 20px ;
+}
+
+.buscar form >.input-group{
+    width: 100%;
+}
+.buscar>.input-group{
+    width: 100%;
+
+}
+.buscar form >.input-group>.input-group{
+
+}
+.buscar form >.input-group>.input-group>.input-group{
+    margin: 0px 0px;
+}
+input{
+       border-radius: 10px !important;
+}
+.cont_boton{
+    position: relative;
+    top: 30px;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor_boton{
+    width: 280px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.btn{
+    margin: 10px 0px;
+    width: 120px ;
+    background: transparent;
+    color: #847592 !important;
+    border:1px solid #847592;
+}
+
+.btn:hover{
+    color: white !important;
+}
+.btn-regresar{
+    margin-left: 30px !important;
+}
+.cont_boton{
+
+}
+.botones1{
+    background: blue;
+    margin: auto;
+    width: 100px;
+}
+
+.buton_contenedor1{
+}
+
+
+.input-group-prepend{
+    display: none;
+}
+.boton_medio{
+    margin: 0px 20px;
+}
+/* iphone 4 */
+@media (max-width: 320px){
+.boton_medio{
+    margin: 0px 10px;
+}
+}/*Fin 320*/
+@media (min-width: 321px) and (max-width:425px){
+.boton_medio{
+    margin: 0px 10px;
+}
+}
+/* especial */
+@media (min-width: 560px) {
+
+}/*Fin 560*/
+
+/* General */
+@media (min-width: 768px) {
+.btn-regresar{
+    margin-left: 10px !important;
+}
+.btn{
+    margin: 20px 0px;
+    width: 120px ;
+}
+.buscar form >.input-group>.input-group>.input-group{
+    margin: 10px 0px;
+}
+input{
+       border-radius: 0px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+.input-group-prepend{
+    display: block;
+}
+ .cont_boton{
+    position: absolute;
+    top: -280px;
+    right: -80px;
+      width: 10px;
+}
+.buscar form >.input-group{
+    width: 80%;
+}
+}/*Fin 768*/
+@media (min-width: 880px) {
+  .cont_boton{
+    top: -280px;
+    right: -100px;
+}
+}
+@media (min-width: 992px) {
+ .cont_boton{
+    top: -232px;
+    right: -80px;
+}
+.buscar form >.input-group{
+    width: 85%;
+}
+}/*Fin 992*/
+
+@media (min-width: 1200px) {
+ .cont_boton{
+    top: -230px;
+    right: -110px;
+}
+}
